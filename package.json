@@ -1,0 +1,22 @@
+{
+  "name": "signsay-backend",
+  "version": "1.0.0",
+  "description": "Backend for data collection for SignSay",
+  "main": "server.js",
+  "author": "GodzillaJim",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "googleapis": "^73.0.0",
+    "lodash": "^4.17.21",
+    "mega": "^0.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}

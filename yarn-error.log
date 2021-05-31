@@ -1,0 +1,35 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express cors morgan
+
+PATH: 
+  C:\Rtools\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;D:\projects\Artificial Intelligence\Python\python_scripts;C:\gradle\gradle-6.4.1\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\heroku\bin;C:\wamp64\bin\php\php7.4.0;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Troll\anaconda3;C:\Users\Troll\anaconda3\Library\mingw-w64\bin;C:\Users\Troll\anaconda3\Library\usr\bin;C:\Users\Troll\anaconda3\Library\bin;C:\Users\Troll\anaconda3\Scripts;C:\Rtools\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\ActiveState Komodo IDE 10\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Calibre2\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Symfony;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Troll\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Troll\AppData\Local\Programs\Python\Python38\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\Troll\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Troll;C:\Program Files\JetBrains\WebStorm 2019.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3;C:\sqlite;C:\Users\Troll\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;;C:\maven\bin;C:\Program Files\JetBrains\PyCharm 2019.3.4\bin;;D:\projects\Artificial Intelligence\Python\python_scripts;C:\Program Files\heroku\bin;C:\wamp64\bin\php\php7.4.0;C:\Users\Troll\AppData\Roaming\npm;C:\Users\Troll\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:67:26)
+
+npm manifest: 
+  {
+    "name": "signsay-backend",
+    "version": "1.0.0",
+    "description": "Backend for data collection for SignSay",
+    "main": "server.js",
+    "author": "GodzillaJim",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
