@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const sentences = require('../data/data.js');
 const storeVideo = async (req, res) => {
   try {
     if (!req.files) {
@@ -39,5 +40,7 @@ const retrieveVideos = (req, res) => {
     return res.json(files);
   });
 };
-
-module.exports = { storeVideo, retrieveVideos };
+const sendSentences = (req, res) => {
+  res.json(sentences);
+};
+module.exports = { storeVideo, retrieveVideos, sendSentences };
