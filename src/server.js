@@ -29,7 +29,11 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
 app.use(fileUpload({ createParentPath: true }));
+app.use(express.static(path.join(__dirname, 'client/')));
 app.use(express.static(path.join(__dirname, 'videos/')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'index.html'));
+});
 app.use(Router);
 
 app.listen(port, (err) => {
