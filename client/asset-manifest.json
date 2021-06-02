@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe107152.chunk.css",
+    "main.js": "/static/js/main.2dd386db.chunk.js",
+    "main.js.map": "/static/js/main.2dd386db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b9fbf6b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b9fbf6b1.js.map",
+    "static/js/2.0427357a.chunk.js": "/static/js/2.0427357a.chunk.js",
+    "static/js/2.0427357a.chunk.js.map": "/static/js/2.0427357a.chunk.js.map",
+    "static/js/3.088d7112.chunk.js": "/static/js/3.088d7112.chunk.js",
+    "static/js/3.088d7112.chunk.js.map": "/static/js/3.088d7112.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fe107152.chunk.css.map": "/static/css/main.fe107152.chunk.css.map",
+    "static/js/2.0427357a.chunk.js.LICENSE.txt": "/static/js/2.0427357a.chunk.js.LICENSE.txt",
+    "static/media/sign-language_oqplmd_c_scale,w_1148.e01a1f2c.jpg": "/static/media/sign-language_oqplmd_c_scale,w_1148.e01a1f2c.jpg",
+    "static/media/sign-language_oqplmd_c_scale,w_1400.621b43f4.jpg": "/static/media/sign-language_oqplmd_c_scale,w_1400.621b43f4.jpg",
+    "static/media/sign-language_oqplmd_c_scale,w_569.cf3e6df0.jpg": "/static/media/sign-language_oqplmd_c_scale,w_569.cf3e6df0.jpg",
+    "static/media/sign-language_oqplmd_c_scale,w_908.c8457f6b.jpg": "/static/media/sign-language_oqplmd_c_scale,w_908.c8457f6b.jpg",
+    "static/media/waiting_odvwag_c_scale,w_1022.2c6be65c.jpg": "/static/media/waiting_odvwag_c_scale,w_1022.2c6be65c.jpg",
+    "static/media/waiting_odvwag_c_scale,w_1400.3af767cb.jpg": "/static/media/waiting_odvwag_c_scale,w_1400.3af767cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9fbf6b1.js",
+    "static/js/2.0427357a.chunk.js",
+    "static/css/main.fe107152.chunk.css",
+    "static/js/main.2dd386db.chunk.js"
+  ]
+}

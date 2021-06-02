@@ -41,6 +41,7 @@ const retrieveVideos = (req, res) => {
   });
 };
 const sendSentences = (req, res) => {
+  console.log(sentences)
   res.json(sentences);
 };
 module.exports = { storeVideo, retrieveVideos, sendSentences };
