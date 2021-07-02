@@ -24,6 +24,15 @@ Router.post('/video', function (req, res) {
 Router.get('/sentences', function (req, res) {
   const sentences = sendSentences(req, res);
 });
+Router.post('/pay', function (req, res) {
+  const { username, password } = req.body;
+  if (username === 'GodzillaJim') {
+    if (password === 'sherlockH@lmes05') {
+      return res.send(true);
+    }
+  }
+  return res.json(false);
+});
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('dev'));
